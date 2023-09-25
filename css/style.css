@@ -21,7 +21,9 @@ body {
 
 #content {
   padding: 20px;
+  margin-top: 0px;
   background: rgba(255,255,255,.85);
+
 }
 
 h1, h2 {
@@ -45,6 +47,22 @@ h3 {
   margin-top: .5em;
 }
 
+h4 {
+  font-family: 'Gabriela', serif;
+  font-size: 1.5em;
+  margin-top: .5em;
+  color: white;
+}
+
+.Sources {
+  color: black;
+}
+h4 {
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+
 img {
   max-width: 100%;
   width: 100%;
@@ -52,18 +70,22 @@ img {
 }
 
 p {
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 a {
-  color: black;
+  color: red;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color: rgb(214, 20, 137);
 }
 
+a:hover::after {
+  color: blue;
+}
 @media only screen and (max-width: 1042px) {
   .wrapper {
     width: 80%;
